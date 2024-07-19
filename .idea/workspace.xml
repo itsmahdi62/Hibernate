@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49ef8214-8f6e-4aa7-af4b-a33cf10059eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/common/JPA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hibernate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Hibernate.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/service/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/PersonService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +84,7 @@
       <workItem from="1721304565762" duration="3194000" />
       <workItem from="1721321186745" duration="1401000" />
       <workItem from="1721398933775" duration="4701000" />
-      <workItem from="1721409328937" duration="3832000" />
+      <workItem from="1721409328937" duration="5624000" />
     </task>
     <servers />
   </component>

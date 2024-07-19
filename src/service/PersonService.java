@@ -55,7 +55,21 @@ public class PersonService {
         System.out.println(person2.getName());
         System.out.println(person3.getFamily());
     }
+
+    public static void delete()
+    {
+        EntityManager manager = JPA.getEntityManager();//SESSION
+        EntityTransaction transaction = manager.getTransaction();
+        transaction.begin();
+
+        Person person = manager.find(Person.class,4L);
+        manager.remove(person);
+
+        transaction.commit();
+        manager.close();
+
+    }
     public static void main(String[] args) {
-        find();
+        delete();
     }
 }
