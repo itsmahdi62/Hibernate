@@ -1,6 +1,7 @@
 package service;
 
 import entity.Car;
+import entity.Jet;
 import entity.Person;
 
 import javax.persistence.EntityManager;
@@ -33,7 +34,8 @@ public class PersonService {
         Person person2 = new Person().setName("Amirsam2").setFamily("Bahador2");
 
         Car car = new Car().setModel("BMW");
-
+        Jet jet = new Jet().setName("F-140");
+        manager.persist(jet);
         manager.persist(car);
         manager.persist(person1);
         manager.persist(person2);
