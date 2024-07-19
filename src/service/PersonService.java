@@ -1,5 +1,6 @@
 package service;
 
+import common.JPA;
 import entity.Car;
 import entity.Jet;
 import entity.Person;
@@ -44,8 +45,17 @@ public class PersonService {
         manager.close();
 
     }
-
+    public static void find(){
+        EntityManager manager = JPA.getEntityManager();
+        Person person1 = manager.find(Person.class , 3L);
+        Person person2 = manager.find(Person.class , 4L);
+        Person person3 = manager.find(Person.class , 3L);
+        manager.close();
+        System.out.println(person1.getPersonId());
+        System.out.println(person2.getName());
+        System.out.println(person3.getFamily());
+    }
     public static void main(String[] args) {
-        save2();
+        find();
     }
 }
